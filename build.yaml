@@ -19,6 +19,7 @@
 include:
   - board: nrfmicro_13_52833
     shield: corne_left
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nrfmicro_13_52833
     shield: corne_right
   - board: nrfmicro_13_52833
