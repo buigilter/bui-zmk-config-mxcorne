@@ -17,9 +17,9 @@
 #     artifact-name: corne_left_with_logging
 #
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro_13_52833
     shield: corne_left
-  - board: nice_nano_v2
+  - board: nrfmicro_13_52833
     shield: corne_right
-  - board: nice_nano_v2
+  - board: nrfmicro_13_52833
     shield: settings_reset
