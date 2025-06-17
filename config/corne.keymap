@@ -12,8 +12,8 @@
 &led_strip {
     // 21 backlight + 6 glowlight
     chain-length = <27>;
-    color = <255 255 255>;
-    default-effect = "none";
+    color-mapping = <0 1 2>;
+    default-color = <0xFF 0xFF 0xFF>; 
     
 };
 
