@@ -14,6 +14,12 @@
     chain-length = <27>;
 };
 
+&rgb_underglow {
+    status = "okay";
+    default-color = <0xFF 0xFF 0xFF>; // white
+    default-effect = "none";
+};
+
 / {
     behaviors {
         HMR_R: HMR_R {
