@@ -106,10 +106,10 @@
             label = "num_nav";
             display-name = "num_nav";
             bindings = <
-&trans  &kp ESC   &none     &kp UP_ARROW    &none      &none        &kp DEL          &kp KP_N7               &kp KP_N8           &kp KP_N9                 &kp BSPC                   &trans
-&trans  &kp HOME  &kp LEFT  &kp DOWN        &kp RIGHT  &kp PG_UP    &kp KP_SLASH     &HMR_R RIGHT_ALT KP_N4  &HMR_R RCTRL KP_N5  &HMR_R RMETA KP_NUMBER_6  &HMR_R RSHIFT KP_SUBTRACT  &trans
-&trans  &kp END   &trans    &trans          &trans     &kp PG_DN    &kp KP_ASTERISK  &kp KP_N1               &kp KP_N2           &kp KP_N3                 &kp KP_PLUS                &trans
-                            &studio_unlock  &trans     &trans       &kp RET          &kp KP_N0               &kp KP_DOT
+&trans  &kp HOME  &kp PG_UP  &kp PG_DN       &kp END    &trans    &kp DEL          &kp KP_N7               &kp KP_N8           &kp KP_N9                 &kp BSPC                   &trans
+&trans  &kp LEFT  &kp DOWN   &kp UP          &kp RIGHT  &trans    &kp KP_SLASH     &HMR_R RIGHT_ALT KP_N4  &HMR_R RCTRL KP_N5  &HMR_R RMETA KP_NUMBER_6  &HMR_R RSHIFT KP_SUBTRACT  &trans
+&trans  &trans    &trans     &trans          &trans     &trans    &kp KP_ASTERISK  &kp KP_N1               &kp KP_N2           &kp KP_N3                 &kp KP_PLUS                &trans
+                             &studio_unlock  &trans     &trans    &trans           &trans                  &trans
             >;
         };
 
