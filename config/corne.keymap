@@ -95,10 +95,10 @@
             label = "default";
             display-name = "monta";
             bindings = <
-&kp TAB         &kp Q                &kp W                  &kp E                  &kp R               &kp T          &kp Y        &kp U                      &kp I            &kp O                   &kp P               &kp BACKSPACE
-&kp LCTRL       &HRM_L LEFT_SHIFT A  &HRM_L LEFT_COMMAND S  &HRM_L LEFT_CONTROL D  &HRM_L LEFT_ALT F   &kp G          &kp H        &HMR_R RIGHT_ALT J         &HMR_R RCTRL K   &HMR_R RIGHT_COMMAND L  &HMR_R RSHIFT SEMI  &none
-&kp LEFT_SHIFT  &kp Z                &kp X                  &kp C                  &kp V               &kp B          &kp N        &kp M                      &kp COMMA        &kp DOT                 &kp FSLH            &none
-                                                            &kp ESCAPE             &mt LEFT_SHIFT TAB  &lt 1 SPACE    &lt 3 ENTER  &lt_backspace 2 BACKSPACE  &kp PRINTSCREEN
+&kp TAB         &kp Q          &kp W              &kp E                  &kp R               &kp T          &kp Y        &kp U                      &kp I            &kp O              &kp P             &kp BACKSPACE
+&kp LCTRL       &HRM_L LWIN A  &HRM_L LEFT_ALT S  &HRM_L LEFT_CONTROL D  &HRM_L LSHFT F      &kp G          &kp H        &HMR_R RSHFT J             &HMR_R RCTRL K   &HMR_R LEFT_ALT L  &HMR_R RWIN SEMI  &none
+&kp LEFT_SHIFT  &kp Z          &kp X              &kp C                  &kp V               &kp B          &kp N        &kp M                      &kp COMMA        &kp DOT            &kp FSLH          &none
+                                                  &kp ESCAPE             &mt LEFT_SHIFT TAB  &lt 1 SPACE    &lt 3 ENTER  &lt_backspace 2 BACKSPACE  &kp PRINTSCREEN
             >;
         };
 
