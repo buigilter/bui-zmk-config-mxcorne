@@ -54,7 +54,7 @@
 
         default_name {
             label = "default_name";
-            display-name = "Bùi";
+            display-name = "Bui";
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
 &kp LCTRL       &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
@@ -83,7 +83,7 @@
             >;
 
             label = "func_nav";
-            display-name = "F11-12 ←↓↑→";
+            display-name = "F11-12, fleches";
         };
 
         param {
@@ -94,8 +94,8 @@
                                                    &trans           &trans  &trans               &trans     &trans        &trans
             >;
 
-            label = "Paramètres";
-            display-name = "param";
+            label = "param";
+            display-name = "Parametres";
         };
     };
 };
