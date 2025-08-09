@@ -54,7 +54,7 @@
 
         default_name {
             label = "default_name";
-            display-name = "monta";
+            display-name = "Bùi";
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
 &kp LCTRL       &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
@@ -64,8 +64,8 @@
         };
 
         num_nav {
-            label = "num_nav";
-            display-name = "num";
+            label = "num";
+            display-name = "Chiffres";
             bindings = <
 &kp TAB    &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)    &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp BSPC
 &kp LCTRL  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
@@ -83,6 +83,7 @@
             >;
 
             label = "func_nav";
+            display-name = "F11-12 ←↓↑→";
         };
 
         param {
@@ -93,7 +94,8 @@
                                                    &trans           &trans  &trans               &trans     &trans        &trans
             >;
 
-            label = "param";
+            label = "Paramètres";
+            display-name = "param";
         };
     };
 };
