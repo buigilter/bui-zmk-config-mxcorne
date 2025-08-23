@@ -45,9 +45,23 @@
             flavor = "balanced";
             require-prior-idle-ms = <265>;
         };
+
+        delete: delete {
+            compatible = "zmk,behavior-caps-word";
+            label = "DELETE";
+            #binding-cells = <0>;
+            continue-list = <DELETE>;
+        };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <24 11>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
