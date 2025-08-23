@@ -57,7 +57,7 @@
     combos {
         compatible = "zmk,combos";
 
-        delete {
+        combo_delete {
             bindings = <&kp DELETE>;
             key-positions = <24 11>;
         };
