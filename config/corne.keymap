@@ -59,7 +59,7 @@
 
         combo_delete {
             bindings = <&kp DELETE>;
-            key-positions = <11 10>;
+            key-positions = <19 20>;
         };
     };
 
