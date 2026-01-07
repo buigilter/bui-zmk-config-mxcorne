@@ -63,7 +63,7 @@
         };
 
         combo_delete_backwards {
-            bindings = <&delete>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <21 20>;
         };
     };
