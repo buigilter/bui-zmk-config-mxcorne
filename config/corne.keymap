@@ -61,6 +61,11 @@
             bindings = <&kp DELETE>;
             key-positions = <19 20>;
         };
+
+        combo_delete_backwards {
+            bindings = <&delete>;
+            key-positions = <21 20>;
+        };
     };
 
     keymap {
