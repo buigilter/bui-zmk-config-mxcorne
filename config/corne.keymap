@@ -79,7 +79,7 @@
         };
 
         combo_lock_session {
-            bindings = <&kp K_LOCK>;
+            bindings = <&kp K_SCREENSAVER>;
             key-positions = <13 14 15 16 19 20 21 22>;
         };
     };
