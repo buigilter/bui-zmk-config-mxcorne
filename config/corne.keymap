@@ -65,7 +65,7 @@
         combo_delete_backwards {
             bindings = <&kp BACKSPACE>;
             key-positions = <21 20 19>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
         };
 
         combo_escape_left {
